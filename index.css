@@ -1,0 +1,87 @@
+* {
+    font-family: "Space Mono", monospace;
+}
+
+body {
+    font-family: "Space Mono", monospace;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.delete-btn {
+    color: #f00;
+    font-weight: normal
+}
+
+.cart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.item-name, .item-price {
+    width: 100px;
+}
+
+.item-quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    background-color: #ddd;
+    border: none;
+    padding: 5px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.quantity {
+    margin: 0 10px;
+}
+
+.delete-btn, .like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.like-btn .fa-heart {
+    color: #f00;
+}
+
+.like-btn .fa-heart.far {
+    color: #888;
+}
+
+.total {
+    color: green;
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
